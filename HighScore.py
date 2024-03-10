@@ -8,4 +8,5 @@ for score in student_scores:
     if score > high_score:
         high_score = score
         print(high_score)
+        
 print(f"The high score is {high_score}")
