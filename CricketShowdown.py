@@ -76,6 +76,7 @@ def determine_winner():
         print("You lost the Match!")
 
 toss = random.randint(1, 6)
+
 while True:
     try:
         choice = input("Odd or Even? ").lower()
