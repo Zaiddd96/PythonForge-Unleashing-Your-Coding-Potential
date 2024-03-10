@@ -18,7 +18,6 @@ while not end_game:
     for i in range(len(choice)):
         if guess == choice[i]:
             display[i] = choice[i]
-
     
     if guess not in choice:
         print(f"You Guessed letter {guess}, that's not in the word. You lose a life!")
