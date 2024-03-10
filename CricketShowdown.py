@@ -37,7 +37,7 @@ print('''
 
 def play_batting():
     global player_score
-    while True:                                                                          
+    while True:
         player_run = int(input("Play a number: "))
         computer_ball = random.randint(1, 6)
         print(f"Computer's ball: {computer_ball}")
@@ -76,7 +76,19 @@ def determine_winner():
         print("You lost the Match!")
 
 toss = random.randint(1, 6)
-choice = input("Odd or Even? ").lower()
+while True:
+    try:
+        choice = input("Odd or Even? ").lower()
+        if choice == "odd":
+            break
+        elif choice == "even":
+            break
+        else:
+            print("Please enter 'odd' or 'even!'")
+    except ValueError:
+        print("Invalid Input. Please Enter a valid Characters!")
+        
+        
 
 while True:
     try:
