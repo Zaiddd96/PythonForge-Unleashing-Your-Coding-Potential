@@ -118,7 +118,7 @@ def transaction(items):
 
 def starbucks():
     on = False
-    print("⭐ 𝕊𝕋𝔸ℝ𝔹𝕌ℂ𝕂𝕊 ℂ𝕆𝔽𝔽𝔼𝔼 ⭐")
+    print("⭐ 𝐒𝐓𝐀𝐑𝐁𝐔𝐂𝐊𝐒 𝐂𝐎𝐅𝐅𝐄𝐄 ⭐")
     while not on:
         print("Hey there, what's your pick today? 🎩")
         customer = input("Press 'M' to explore our magical menu ☕\n- Choose 'R' for a riveting report 📊\n- Or say "
