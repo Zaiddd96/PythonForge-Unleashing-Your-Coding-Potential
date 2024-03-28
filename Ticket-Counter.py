@@ -18,7 +18,7 @@ else:
     else:
         bill = 12
         print("Your ticket price is $12.")
-    photo = input("Do you wan't a photo? Y or N: ")
+    photo = input("Do you wan't a photo? 'Y' or 'N': ")
     if photo == 'y':
         bill += 3
 
