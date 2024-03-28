@@ -1,4 +1,4 @@
-#Rock paper scissor!
+#Rock Paper Scissor!
 import random
 rock = """
     _______
