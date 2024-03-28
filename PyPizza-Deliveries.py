@@ -1,8 +1,8 @@
-#Python pizza delivery system!
-print("Thank you for choosing Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L") 
-add_pepperoni = input("Do you want pepperoni? Y or N")
-extra_cheese = input("Do you want extra cheese? Y or N")
+#Python Pizza Delivery System!
+print("🍕 Welcome to Python's Pizzeria, where every slice is a byte of delight! 🍕")
+size = input("Choose the size of your adventure: Small (S), Medium (M), or Large (L)? ")
+add_pepperoni = input("Fancy some pepperoni on top? Yes (Y) or No (N)? ")
+extra_cheese = input("How about an extra layer of cheesy goodness? Yes (Y) or No (N)? ")
 
 bill = 0
 if size == "S":
