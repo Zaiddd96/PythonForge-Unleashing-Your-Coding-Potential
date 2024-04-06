@@ -1,4 +1,4 @@
-# The Superhero's Quest: The Lost City of Infinity 🦸‍♀️🌟
+#The Superhero's Quest: The Lost City of Infinity 🦸‍♀️🌟
 
 print("🌟🦸‍♂️ Welcome to the Superhero's Quest! 🦸‍♀️🌟")
 print("You are standing at a crossroad, ready for an epic adventure.")
