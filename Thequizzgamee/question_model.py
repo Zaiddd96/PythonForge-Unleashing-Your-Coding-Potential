@@ -1,6 +1,7 @@
-class Questions:
-    def __init__(self,q_text,q_answer):
-        self.text = q_text
-        self.answer = q_answer
+class Question:
+    """A class to represent a Question."""
 
-
+    def __init__(self, text, answer):
+        """Initialize the Question with a text and an answer."""
+        self.text = text
+        self.answer = answer
