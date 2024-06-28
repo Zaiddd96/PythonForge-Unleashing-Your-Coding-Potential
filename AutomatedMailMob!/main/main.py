@@ -2,7 +2,7 @@ import datetime as dt
 import random as rd
 import smtplib
 
-mail = "saymynameh4@gmail.com"
+mail = "your-email@gmail.com"
 password = "imrtaedndhzaskxl"
 
 day = dt.datetime.now()
@@ -16,7 +16,7 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
             quotes = file.readlines()
             quote = rd.choice(quotes)
             connection.sendmail(from_addr=mail,
-                                to_addrs="shaikhzaidabdulrashid@gmail.com",
+                                to_addrs="sender-email@gmail.com",
                                 msg=f"Subject: Stay Hard!\n\n{quote}"
                                 )
 
