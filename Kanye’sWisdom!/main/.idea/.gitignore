@@ -1,0 +1,43 @@
+# Environment Configuration Files
+.env
+.env.local
+.env.*
+
+# API Keys and Credentials
+api_keys.txt
+credentials.json
+
+# Private Keys
+*.pem
+*.key
+
+# Database Files
+*.sqlite
+*.db
+
+# Log Files
+*.log
+
+# Build and Dependency Files
+node_modules/
+*.lock
+
+# Compiled Code
+*.class
+*.o
+*.exe
+
+# Temporary Files
+*.tmp
+*.swp
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+
+# Backup Files
+*.bak
+*.old
+# Default ignored files
+/shelf/
+/workspace.xml
