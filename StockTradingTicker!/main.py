@@ -4,13 +4,13 @@ import smtplib
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-API_KEY = "BAD4W17GXGI1B3KP"
-NEWS_API_KEY = "7af39af7c3ad4a799940bf534af723f2"
+API_KEY = "StockApi"
+NEWS_API_KEY = "NewsApi"
 YESTERDAY = None
 OVERMORROW = None
 
-EMAIL = "saymynameh4@gmail.com"
-PASSWORD = "imrtaedndhzaskxl"
+EMAIL = "sender@gmail.com"
+PASSWORD = "SenderAppPassword"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
@@ -52,12 +52,12 @@ description = news_data["articles"][random_news]["description"]
 print(f"Headline: {title}\nBrief: {description}")
 
 percentage_change = ((float(YESTERDAY) - float(OVERMORROW)) / float(OVERMORROW)) * 100
-if abs(percentage_change) <= 5:
+if abs(percentage_change) >= 5:
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user=EMAIL, password=PASSWORD)
         connection.sendmail(from_addr=EMAIL,
-                            to_addrs="shaikhzaidabdulrashid@gmail.com",
+                            to_addrs="recipient@gmail.com",
                             msg=f"Subject:{title}\n\n{description}"
                             )
 
